@@ -1,0 +1,8 @@
+Sorbent,Full Swing Capacity (mmol/g),Loading Time (min),Unloading Time (min),Cycle Time (min),Average Capacity loss per cycle,Number of cycles in stability analysis,MAB 10k Cycles ($/kg),MAB 50k Cycles ($/kg),MAB 100k Cycles ($/kg)
+MIL-101(Cr)-PEI-800,1,20,20,40,,3,5.07,24.18,45.62
+MIL-101(Cr)-PEI-1.76,1.35,75,37.5,112.5,1.50%,3,3.95,17.33,29.81
+mmen-Mg2(dobpdc),2.9,60,15,75,,3,14.59,66.75,120.2
+ED-Mg/DOBDC,1.55,15,7.5,22.5,negative,4,3.94,19.19,37.05
+en-Mg2(dobpdc),2.83,365,132.5,397.5,1.20%,5,6.48,21.48,29.27
+Cr-MIL-101-SO3H-TAEA,1.12,15,7.5,22.5,0.17%,15,2.92,14.11,27.24
+Mg2(dobdc)(N2H2)1.8,3.66,320,160,480,,,8.23,25.65,33.62

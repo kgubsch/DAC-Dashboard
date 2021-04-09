@@ -1,0 +1,64 @@
+Sorbent,Indicator Name,Value
+MIL-101(Cr)-PEI-800,Full Swing Capacity (mmol/g),1
+MIL-101(Cr)-PEI-800,Loading Time (min),20
+MIL-101(Cr)-PEI-800,Unloading Time (min),20
+MIL-101(Cr)-PEI-800,Cycle Time (min),40
+MIL-101(Cr)-PEI-800,Average Capacity loss per cycle,
+MIL-101(Cr)-PEI-800,Number of cycles in stability analysis,3
+MIL-101(Cr)-PEI-800,MAB 10k Cycles ($/kg),5.07
+MIL-101(Cr)-PEI-800,MAB 50k Cycles ($/kg),24.18
+MIL-101(Cr)-PEI-800,MAB 100k Cycles ($/kg),45.62
+MIL-101(Cr)-PEI-1.76,Full Swing Capacity (mmol/g),1.35
+MIL-101(Cr)-PEI-1.76,Loading Time (min),75
+MIL-101(Cr)-PEI-1.76,Unloading Time (min),37.5
+MIL-101(Cr)-PEI-1.76,Cycle Time (min),112.5
+MIL-101(Cr)-PEI-1.76,Average Capacity loss per cycle,1.50%
+MIL-101(Cr)-PEI-1.76,Number of cycles in stability analysis,3
+MIL-101(Cr)-PEI-1.76,MAB 10k Cycles ($/kg),3.95
+MIL-101(Cr)-PEI-1.76,MAB 50k Cycles ($/kg),17.33
+MIL-101(Cr)-PEI-1.76,MAB 100k Cycles ($/kg),29.81
+mmen-Mg2(dobpdc),Full Swing Capacity (mmol/g),2.9
+mmen-Mg2(dobpdc),Loading Time (min),60
+mmen-Mg2(dobpdc),Unloading Time (min),15
+mmen-Mg2(dobpdc),Cycle Time (min),75
+mmen-Mg2(dobpdc),Average Capacity loss per cycle,
+mmen-Mg2(dobpdc),Number of cycles in stability analysis,3
+mmen-Mg2(dobpdc),MAB 10k Cycles ($/kg),14.59
+mmen-Mg2(dobpdc),MAB 50k Cycles ($/kg),66.75
+mmen-Mg2(dobpdc),MAB 100k Cycles ($/kg),120.2
+ED-Mg/DOBDC,Full Swing Capacity (mmol/g),1.55
+ED-Mg/DOBDC,Loading Time (min),15
+ED-Mg/DOBDC,Unloading Time (min),7.5
+ED-Mg/DOBDC,Cycle Time (min),22.5
+ED-Mg/DOBDC,Average Capacity loss per cycle,negative
+ED-Mg/DOBDC,Number of cycles in stability analysis,4
+ED-Mg/DOBDC,MAB 10k Cycles ($/kg),3.94
+ED-Mg/DOBDC,MAB 50k Cycles ($/kg),19.19
+ED-Mg/DOBDC,MAB 100k Cycles ($/kg),37.05
+en-Mg2(dobpdc),Full Swing Capacity (mmol/g),2.83
+en-Mg2(dobpdc),Loading Time (min),365
+en-Mg2(dobpdc),Unloading Time (min),132.5
+en-Mg2(dobpdc),Cycle Time (min),397.5
+en-Mg2(dobpdc),Average Capacity loss per cycle,1.20%
+en-Mg2(dobpdc),Number of cycles in stability analysis,5
+en-Mg2(dobpdc),MAB 10k Cycles ($/kg),6.48
+en-Mg2(dobpdc),MAB 50k Cycles ($/kg),21.48
+en-Mg2(dobpdc),MAB 100k Cycles ($/kg),29.27
+Cr-MIL-101-SO3H-TAEA,Full Swing Capacity (mmol/g),1.12
+Cr-MIL-101-SO3H-TAEA,Loading Time (min),15
+Cr-MIL-101-SO3H-TAEA,Unloading Time (min),7.5
+Cr-MIL-101-SO3H-TAEA,Cycle Time (min),22.5
+Cr-MIL-101-SO3H-TAEA,Average Capacity loss per cycle,0.17%
+Cr-MIL-101-SO3H-TAEA,Number of cycles in stability analysis,15
+Cr-MIL-101-SO3H-TAEA,MAB 10k Cycles ($/kg),2.92
+Cr-MIL-101-SO3H-TAEA,MAB 50k Cycles ($/kg),14.11
+Cr-MIL-101-SO3H-TAEA,MAB 100k Cycles ($/kg),27.24
+Mg2(dobdc)(N2H2)1.8,Full Swing Capacity (mmol/g),3.66
+Mg2(dobdc)(N2H2)1.8,Loading Time (min),320
+Mg2(dobdc)(N2H2)1.8,Unloading Time (min),160
+Mg2(dobdc)(N2H2)1.8,Cycle Time (min),480
+Mg2(dobdc)(N2H2)1.8,Average Capacity loss per cycle,
+Mg2(dobdc)(N2H2)1.8,Number of cycles in stability analysis,
+Mg2(dobdc)(N2H2)1.8,MAB 10k Cycles ($/kg),8.23
+Mg2(dobdc)(N2H2)1.8,MAB 50k Cycles ($/kg),25.65
+Mg2(dobdc)(N2H2)1.8,MAB 100k Cycles ($/kg),33.62
