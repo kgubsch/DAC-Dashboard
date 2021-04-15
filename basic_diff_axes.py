@@ -9,7 +9,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-df = pd.read_csv('C:\\Users\\gubsc\\OneDrive\\Documents\\Carbon Visions\\DAC Dashboard\\TEA_Data_slider.csv')
+df = pd.read_csv('C:\\Users\\gubsc\\OneDrive\\Documents\\Carbon Visions\\DAC Dashboard\\TEA_Data_inputs.csv')
 available_indicators = df['Indicator Name'].unique()
 
 app.layout = html.Div([
@@ -47,7 +47,7 @@ app.layout = html.Div([
 
     dcc.Graph(id='indicator-graphic')
 ])
-'''
+
 @app.callback(
     Output('indicator-graphic', 'figure'),
     Input('xaxis-column', 'value'),
@@ -56,13 +56,12 @@ app.layout = html.Div([
     Input('yaxis-type', 'value'))
     #Input('year--slider', 'value'))
 def update_graph(xaxis_column_name, yaxis_column_name,
-                 xaxis_type, yaxis_type,
-                 capacity_value):
-    dff = df[df['Full Swing Capacity (mmol/g)'] == capacity_value]
+                 xaxis_type, yaxis_type):
+    dff = df
 
-    fig = px.scatter(x=dff[dff['Indicator Name'] == xaxis_column_name]['Value'],
-                     y=dff[dff['Indicator Name'] == yaxis_column_name]['Value'],
-                     hover_name=dff[dff['Indicator Name'] == yaxis_column_name]['Country Name'])
+    fig = px.scatter(x = dff[dff['Indicator Name'] == xaxis_column_name]['Value'],
+                     y= dff[dff['Indicator Name'] == yaxis_column_name]['Value'],
+                     hover_name= dff[dff['Indicator Name'] == yaxis_column_name]['Sorbent'])
 
     fig.update_layout(margin={'l': 40, 'b': 40, 't': 10, 'r': 0}, hovermode='closest')
 
@@ -72,7 +71,7 @@ def update_graph(xaxis_column_name, yaxis_column_name,
     fig.update_yaxes(title=yaxis_column_name,
                      type='linear' if yaxis_type == 'Linear' else 'log')
 
-    return fig'''
+    return fig
 
 if __name__ == '__main__':
     app.run_server(debug=True)
